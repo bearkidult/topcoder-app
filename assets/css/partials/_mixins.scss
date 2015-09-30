@@ -131,7 +131,7 @@
   }
 }
 
-@mixin button-s($background: $primary-color) {
+@mixin button-s($background: $accent) {
   height: 20px;
   line-height: 20px;
   padding: 0 8px;
@@ -148,7 +148,7 @@
   outline: 0;
 }
 
-@mixin button-m($background: $primary-color) {
+@mixin button-m($background: $accent) {
   @include button-s($background);
   height: 30px;
   line-height: 30px;
@@ -157,7 +157,7 @@
   border-radius: 4px;
 }
 
-@mixin button-l($background: $primary-color) {
+@mixin button-l($background: $accent) {
   @include button-s($background);
   height: 50px;
   line-height: 50px;
@@ -168,7 +168,7 @@
 
 }
 
-@mixin button-xl($background: $primary-color) {
+@mixin button-xl($background: $accent) {
   @include button-s($background);
   height: 60px;
   line-height: 60px;
@@ -179,7 +179,7 @@
 
 }
 
-@mixin button-m-wide($background: $primary-color) {
+@mixin button-m-wide($background: $accent) {
   @include button-m($background);
   padding: 0 30px;
 }
@@ -190,8 +190,8 @@
 
 @mixin button-ghost {
   background-color: $white;
-  color: $primary-color;
-  border: 1px solid $primary-color;
+  color: $accent;
+  border: 1px solid $accent;
 }
 
 @mixin button-1($disabled: #b2e7fe, $normal: #1eaefc, $hover: #199ae2, $active: #1792d7) {
