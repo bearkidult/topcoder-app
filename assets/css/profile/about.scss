@@ -217,6 +217,14 @@
 
       .skill {
         margin: 5px 7.5px;
+        .skill-icon {
+          &:hover {
+            cursor: default;
+          }
+        }
+        a:hover {
+          cursor: default;
+        }
       }
     }
     .empty-state {
